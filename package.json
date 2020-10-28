@@ -1,6 +1,6 @@
 {
   "name": "www.barriquand.me",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "www.barriquand.me",
   "scripts": {
     "cipher": "cipher-json cipher ./src/data/*.json",
@@ -12,27 +12,27 @@
   "author": "Nicolas Bariquand <nicolas.barriquand@outlook.fr>",
   "license": "MIT",
   "dependencies": {
-    "buefy": "^0.8.8",
+    "buefy": "^0.9.3",
     "core-js": "^3.6.1",
     "vue": "^2.6.11",
     "vue-scrollto": "^2.18.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.1.1",
-    "@vue/cli-plugin-eslint": "^4.1.1",
-    "@vue/cli-service": "^4.1.1",
+    "@vue/cli-plugin-babel": "^4.5.8",
+    "@vue/cli-plugin-eslint": "^4.5.8",
+    "@vue/cli-service": "^4.5.8",
     "@vue/eslint-config-standard": "^5.0.1",
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.8.0",
-    "eslint-plugin-vue": "^6.0.1",
-    "json-cipher-value": "^1.2.0",
+    "eslint": "^7.12.1",
+    "eslint-plugin-vue": "^7.1.0",
+    "json-cipher-value": "^2.0.0",
     "node-sass": "^4.13.0",
     "pug": "^2.0.4",
     "pug-loader": "^2.4.0",
     "pug-plain-loader": "^1.0.0",
-    "sass-loader": "^8.0.0",
+    "sass-loader": "^10.0.4",
     "serve": "^11.2.0",
-    "standard": "^14.3.1",
+    "standard": "*",
     "vue-template-compiler": "^2.6.11"
   },
   "repository": {
